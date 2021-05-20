@@ -6,3 +6,4 @@ DS:
 2. [Stack](https://github.com/Sidhved/Data-Structures-And-Algorithms/blob/main/Python/DS/Stack.py)
 3. [Linear Probing in Hashing](https://github.com/Sidhved/Data-Structures-And-Algorithms/blob/main/Python/DS/Linear%20Probing%20in%20Hashing.py)
 4. [Quadratic Probing in Hashing](https://github.com/Sidhved/Data-Structures-And-Algorithms/blob/main/Python/DS/Quadratic%20Probing%20in%20Hashing.py)
+5. [Tree Traversal](https://github.com/Sidhved/Data-Structures-And-Algorithms/blob/main/Python/DS/Trees.py)
