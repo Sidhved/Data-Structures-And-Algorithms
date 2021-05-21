@@ -9,3 +9,4 @@ DS:
 5. [Tree Traversal](https://github.com/Sidhved/Data-Structures-And-Algorithms/blob/main/Python/DS/Trees.py)
 6. [Tree-Level Order Traversal](https://github.com/Sidhved/Data-Structures-And-Algorithms/blob/main/Python/DS/Tree-LevelOrderTraversal.py)
 7. [Reversing Linked List](https://github.com/Sidhved/Data-Structures-And-Algorithms/blob/main/Python/DS/Reverse%20Linked%20List.py)
+8. [Binary Search Tree](https://github.com/Sidhved/Data-Structures-And-Algorithms/blob/main/Python/DS/Binary%20Search%20Tree.py)
