@@ -45,29 +45,29 @@ if __name__ == "__main__":
     bst2 = None
     flag = False
     res1 = input("Want to enter nodes in BST1?(y/n)")
-    if res1 == "y" or "Y":
-        flag = True
-        while flag:
+    if res1 == "y" or res1 == "Y":
+        while not flag: # this condition gets true as (!False)
             node_value = int(input("Enter node value: "))
             bst1 = insertNode(bst1, node_value)
-            flag = False
             res = input("Want to add more?(y/n)")
-            if res == "y" or "Y":
+            # if the user wants to quit
+            if res == 'n' or res == 'N':
+                # setting the flag to True
                 flag = True
-            else:
-                flag = False
+
+    print(f"Current Flag Value: {flag}")               
     res2 = input("Want to enter nodes in BST2?(y/n)")
-    if res2 == "y" or "Y":
-        flag = True
-        while flag:
+    if res2 == "y" or res2 == "Y":
+        # setting the flag to false as, we have change the flag value above
+        flag = False
+        while not flag:
             node_value = int(input("Enter node value: "))
             bst2 = insertNode(bst2, node_value)
-            flag = False
             res = input("Want to add more?(y/n)")
-            if res == "y" or "Y":
+            # if the user wants to quit
+            if res == 'n' or res == 'N':
                 flag = True
-            else:
-                flag = False
+    
     print("Checking if the BSTs are identical...")
     if checkIdentical(bst1, bst2):
         print("\nYesss! They are identical")
